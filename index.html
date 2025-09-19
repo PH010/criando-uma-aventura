@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <title>Em busca do tesouro perdido</title>
 </head>
 <body>
  <main>
-    <div>
-        
+    <div class="passo ativo" id="passo-0"
+     <img src="cenario-passo0.png" alt="">
+       <p>A milhares de anos atrás avia um barco de piratas do Caribe, em uma luta contra os invasores. Ele decidiram enterrar um tesouro cheio de ouro e pedras preciosas. Eu achei um mapa que nos leva até o tesouro e decidi ir atrás dele!</p> 
+       <button class="btn-proximo" data-proximo="1">Floresta abandonada</button>
+        <button class="btn-proximo" data-proximo="2">ilha do Caribe</button>
+    </div>
+    <div class="passo" id="passo-1"
+       <p>Você começará a caça pelo tesouro prdido na floresta abandonada. Basta seguir o mapa para encontra-lo.</p> 
+       <button class="btn-proximo" data-proximo="3">Seguir o mapa</button>
+        <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
     </div>
  </main>
-    
-
-
+ <script src="script.js"></script>
 </body>
 </html>
